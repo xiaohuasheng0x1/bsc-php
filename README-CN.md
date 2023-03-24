@@ -126,12 +126,3 @@ $bep20->receiptStatus($txHash);
 - 支持 ERC721|ERC-1155
 - 智能合约
 
-## 🌟🌟
-
-[![Stargazers over time](https://starchart.cc/xiaohuasheng0x1/bsc-php.svg)](https://starchart.cc/xiaohuasheng0x1/bsc-php)
-
-## 合作
-
-联系方式
-- WX：zgf243944672
-- QQ：243944672
