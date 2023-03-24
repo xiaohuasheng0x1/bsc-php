@@ -1,0 +1,41 @@
+{
+    "name": "xiaohuasheng0x1/bsc-php",
+    "description": "Support Binance's BNB and BEP20, which include functions such as address creation, balance query, transaction transfer, query the latest blockchain, query information based on the blockchain, and query information based on the transaction hash",
+    "keywords": [
+        "php",
+        "binance",
+        "bnb",
+        "bep20"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/xiaohuasheng0x1/bsc-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaohuasheng0x1",
+            "email": "8888028@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ionux/phactor": "1.0.8",
+        "kornrunner/keccak": "^1.0",
+        "sop/asn1": "^3.3",
+        "sop/crypto-encoding": "^0.2.0",
+        "sop/crypto-types": "^0.2.1",
+        "phpseclib/phpseclib": "~2.0.11",
+        "guzzlehttp/guzzle": "^6.5",
+        "xiaohuasheng0x1/bip39-php": "~1.2.0",
+        "xiaohuasheng0x1/bip44-php": "~1.0",
+        "ext-gmp": "*",
+        "ext-openssl": "*",
+        "ext-json": "*",
+        "ext-bcmath": "*",
+        "web3p/ethereum-tx": "^0.4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Binance\\": "src/"
+        }
+    }
+}

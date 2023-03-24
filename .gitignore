@@ -1,0 +1,4 @@
+.idea
+.DE_store
+vendor
+*.lock
